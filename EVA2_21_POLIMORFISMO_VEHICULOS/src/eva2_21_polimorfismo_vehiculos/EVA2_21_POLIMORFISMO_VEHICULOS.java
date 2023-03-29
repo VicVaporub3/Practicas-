@@ -17,6 +17,9 @@ public class EVA2_21_POLIMORFISMO_VEHICULOS {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Automovil auto1 = new Automovil("Mazda", "Mazda 3", 2022, 2022);
+        
+        
     }
     
 }
@@ -54,7 +57,7 @@ class Automovil extends Vehiculo{
     private int año;
     private final String marca;
 
-    public Automovil(String marca, int velocidad, String modelo, int año) {
+    public Automovil (String marca, int velocidad, String modelo, int año) {
         this.modelo = modelo;
         this.año = año;
         this.marca = marca;
